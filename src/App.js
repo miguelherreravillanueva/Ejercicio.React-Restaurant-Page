@@ -34,12 +34,8 @@ function App() {
   return (
     <div className="App">
       <Header restaurant={restaurant}/>
-      <Home restaurant={restaurant}/>
-      {/* <Home dishes={dishes}/> */}
-      {/* <div>
-        <ul>{dishes}</ul>
-      </div> */}
-    </div>
+      <Home dishes={dishes}/>
+      </div>
   );
 }
 
